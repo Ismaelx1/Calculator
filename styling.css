@@ -26,7 +26,7 @@ button:hover {
 
 .container {
     display: flex;
-    max-width: 336px;
+    max-width: 332px;
     max-height: 600px;
     flex-direction: column;
 
@@ -35,12 +35,20 @@ button:hover {
     margin-top: 200px;
     
     }
-
-
+.rando {
+    width: 90px;
+}
+#equals {
+    width: 110px;
+   background-color: #2196f3;
+}
    .display {
        width: 340px;
        height: 150;
        position: absolute;
+       margin-top: 270px;
+       margin-left: 250px;
+    
        
    }
     p {
@@ -55,5 +63,10 @@ button:hover {
        
        
         
+    }
+    
+    .last {
+        display: flex;
+        justify-content: space-between;
     }
     
