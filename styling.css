@@ -70,3 +70,6 @@ button:hover {
         justify-content: space-between;
     }
     
+    #equals:hover {
+        background-color: deepskyblue;
+    }
